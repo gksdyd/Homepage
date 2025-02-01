@@ -1,39 +1,19 @@
-.procedure_bar_sort{
-    text-align: center;
-    
-    .balloon{
-        width: 90%;
-        /* z-index: 1; */
-        position: relative;
-    }
-    .sprout{
-        left: 19%;
-        width: 5%;
-        margin-top: 2%;
-        position: absolute;
-        /* z-index: 2; */
-    }
-    .leaf{
-        left: 38%;
-        width: 5%;
-        margin-top: 2%;
-        position: absolute;
-    }
-    .flower{
-        left: 57%;
-        width: 5%;
-        margin-top: 2%;
-        position: absolute;
-    }
-    .tree{
-        left: 76%;
-        width: 5%;
-        margin-top: 2%;
-        position: absolute;
-    }
-    .procedure_bar{
-        height: 10px;
-        background-color: rgb(197, 148, 92);
-        margin: 0 auto
-    }
+.balloon{
+    width: 90%;
+    z-index: 1;
+    position: relative;
+    display: block;
+    translate: 5%;
+}
+.image{
+    width: 5%;
+    translate: 110% 50%;
+    position: absolute;
+    z-index: 2;
+    display: block;
+}
+.procedure_bar{
+    height: 10px;
+    background-color: rgb(197, 148, 92);
+    margin: 0 auto
 }
